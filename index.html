@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Credit Card List</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f3f3f3;
+padding:12px;
+}
+
+.container{
+max-width:950px;
+margin:auto;
+}
+
+.card{
+background:#fff;
+border-radius:14px;
+overflow:hidden;
+margin-bottom:16px;
+box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.top{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:16px 20px;
+}
+
+.left{
+display:flex;
+gap:16px;
+align-items:flex-start;
+}
+
+.card-img{
+width:140px;
+border-radius:8px;
+}
+
+.content h2{
+font-size:16px;
+font-weight:700;
+margin-bottom:4px;
+}
+
+.sub{
+font-size:12px;
+color:#444;
+margin-bottom:10px;
+}
+
+.rating-title{
+font-size:12px;
+font-weight:600;
+margin-bottom:6px;
+}
+
+.rating-box{
+display:flex;
+align-items:center;
+gap:8px;
+border:1px solid #ddd;
+padding:4px 10px;
+border-radius:20px;
+width:max-content;
+}
+
+.rating-number{
+font-size:14px;
+font-weight:700;
+}
+
+.stars{
+color:#43cf90;
+font-size:14px;
+letter-spacing:1px;
+}
+
+.buttons{
+display:flex;
+flex-direction:column;
+gap:8px;
+}
+
+.btn{
+width:130px;
+height:38px;
+border-radius:8px;
+font-size:15px;
+font-weight:600;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+}
+
+.apply{
+background:#44d38d;
+color:#111;
+}
+
+.check{
+background:#fff;
+border:1.5px solid #222;
+color:#111;
+}
+
+.info{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+border-top:1px solid #e5e5e5;
+}
+
+.box{
+padding:16px 20px;
+border-right:1px solid #e5e5e5;
+}
+
+.box:last-child{
+border-right:none;
+}
+
+.label{
+font-size:13px;
+margin-bottom:6px;
+}
+
+.price{
+font-size:22px;
+font-weight:700;
+margin-bottom:3px;
+}
+
+.tax{
+font-size:11px;
+color:#444;
+}
+
+.score{
+font-size:24px;
+font-weight:700;
+margin-bottom:4px;
+}
+
+.link{
+font-size:12px;
+color:#4d46ff;
+text-decoration:underline;
+}
+
+.footer{
+border-top:1px solid #e5e5e5;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:12px 20px;
+}
+
+.compare{
+display:flex;
+align-items:center;
+gap:8px;
+font-size:14px;
+font-weight:600;
+}
+
+.compare input{
+width:15px;
+height:15px;
+}
+
+.more{
+font-size:14px;
+font-weight:600;
+}
+
+@media(max-width:768px){
+
+.top{
+flex-direction:column;
+align-items:flex-start;
+gap:16px;
+}
+
+.left{
+flex-direction:column;
+}
+
+.card-img{
+width:100%;
+max-width:240px;
+}
+
+.buttons{
+width:100%;
+}
+
+.btn{
+width:100%;
+}
+
+.info{
+grid-template-columns:1fr;
+}
+
+.box{
+border-right:none;
+border-bottom:1px solid #e5e5e5;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- CARD 1 -->
+
+<div class="card">
+
+<div class="top">
+
+<div class="left">
+
+<img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEMqQouyL2waMmefYVKgRO0AFMqkxb33uUxWwQzVrm&s">
+
+<div class="content">
+
+<h2>Flipkart Axis Bank Credit Card</h2>
+
+<div class="sub">Fuel , Movies  and Earn Upto Rs.100</div>
+
+<div class="rating-title">SathSafar Rating</div>
+
+<div class="rating-box">
+
+<div class="rating-number">4.4/5</div>
+
+<div class="stars">★★★★★</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="buttons">
+
+<a href="https://leads.goldenteam.in/?h=R2ljaUhJaTRmUW0vT29KOEMzT1pkOUNXSExobnZESjdSeWNXdEVQeXo5ND0=" class="btn apply">Apply now</a>
+
+<a href="#" class="btn check">sell now</a>
+
+</div>
+
+</div>
+
+<div class="info">
+
+</div>
+
+</div>
+
+
+<!-- CARD 2 -->
+
+<div class="card">
+
+<div class="top">
+
+<div class="left">
+
+<img class="card-img" src="https://www.paisabazaar.com/wp-content/uploads/2017/10/UPI-RuPay-Card-Fascia.png">
+
+<div class="content">
+
+<h2>HDFC Bank Credit Card</h2>
+
+<div class="sub">Fuel , Movies  and Earn Upto Rs.1100</div>
+
+<div class="rating-title">SathSafar Rating</div>
+
+<div class="rating-box">
+
+<div class="rating-number">4.4/5</div>
+
+<div class="stars">★★★★★</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="buttons">
+
+<a href="https://leads.goldenteam.in/?h=NEtFOUEyWHZwTDc1KzhNMUNqSnJGSHZZN3gyQXNLamt5cDFzUUM4K0FPOD0=" class="btn apply">Apply now</a>
+
+<a href="#" class="btn check">sell now</a>
+
+</div>
+
+</div>
+
+<div class="info">
+
+</div>
+
+</div>
+
+<!-- CARD 3 -->
+
+<div class="card">
+
+<div class="top">
+
+<div class="left">
+
+<img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDPTDt3zgBGCRGBE4ACmXg130_U9AQdr_6nA&s">
+
+<div class="content">
+
+<h2>IDFC Fast Bank Credit Card</h2>
+
+<div class="sub">Fuel , Movies  and Earn Upto Rs.250</div>
+
+<div class="rating-title">SathSafar Rating</div>
+
+<div class="rating-box">
+
+<div class="rating-number">4.4/5</div>
+
+<div class="stars">★★★★★</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="buttons">
+
+<a href="https://leads.goldenteam.in/?h=SkNpZVd0MkJjekY0Z2MrRllINjdabDNnckQ4QjdzeUFqOElVcFo2WGo0WT0=" class="btn apply">Apply now</a>
+
+<a href="#" class="btn check">sell now</a>
+
+</div>
+
+</div>
+
+<div class="info">
+
+</div>
+
+</div>
+
+
+<!-- CARD 4 -->
+
+<div class="card">
+
+<div class="top">
+
+<div class="left">
+
+<img class="card-img" src="https://piceapp.com/blogs/wp-content/uploads/2025/12/AU-Small-Finance-Bank-LIT-Credit-Card-Lifetime-Free-Cardpng.png">
+
+<div class="content">
+
+<h2>AU Bank Credit Card</h2>
+
+<div class="rating-title">Earn Upto Rs.1100</div>
+<div class="rating-title">SathSafar Rating</div>
+
+<div class="rating-box">
+
+<div class="rating-number">4.4/5</div>
+
+<div class="stars">★★★★★</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="buttons">
+
+<a href="https://leads.goldenteam.in/?h=Yms4VXhURHZSNHNEazJWM0tpSURjZElRU2RyK0pBV2JGYTQyenQvd3BxVT0=" class="btn apply">Apply now</a>
+
+<a href="#" class="btn check">sell now</a>
+
+</div>
+
+</div>
+
+<div class="info">
+
+
+</div>
+
+</div>
+
+<div class="footer">
+
+<div class="compare">
+
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
